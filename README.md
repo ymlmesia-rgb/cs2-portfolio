@@ -1,3 +1,3 @@
 # CS2-portfolio
 # Yuan Marcus Mesia
-Here is the link to hello.py: [hello.py](q1/hello.py)
+View my awesome code😎: [hello.py](q1/hello.py)
