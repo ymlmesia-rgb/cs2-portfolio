@@ -25,6 +25,7 @@ Scores below 0 and scores above 100 are invalid.
 
 # Part 1: Analyze the Logic
 
-## Input
+### Input
 What information does the program need?
+> The program needs a single integer representing a student's numerical score.
 
