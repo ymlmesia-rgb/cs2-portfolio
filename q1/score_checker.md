@@ -17,7 +17,7 @@ The classifications are:
 
 | 80-89 | Very Satisfactory | 
 
-| 75-80 | Satisfactory | 
+| 75-79 | Satisfactory | 
 
 | 0-74 | Needs Improvement | 
 
@@ -25,10 +25,20 @@ Scores below 0 and scores above 100 are invalid.
 
 # Part 1: Analyze the Logic
 
-### Input
+## Input
 What information does the program need?
 > The program needs a single integer representing a student's numerical score.
 
-### Valid Range
+## Valid Range
 **Minimum valid score:** 0
+
 **Maximum valid score:** 100
+
+## Possible Outputs
+1. 'Invalid score. Please enter a score between 0 and 100.'
+2. 'The grade for the score {90-100} is Outstanding'
+3. 'The grade for the score {80-89} is Very Satisfactory'
+4. 'The grade for the score {75-79} is Staisfactory'
+5. 'The grade for the score {0-74} is Needs Improvement'
+
+## Boundary Condition
