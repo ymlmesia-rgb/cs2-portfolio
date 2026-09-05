@@ -27,7 +27,7 @@ Scores below 0 and scores above 100 are invalid.
 
 ## Input
 What information does the program need?
-> The program needs a single integer representing a student's numerical score.
+> The program needs a single integer representing a student's numerical score ('score')
 
 ## Valid Range
 **Minimum valid score:** 0
@@ -42,4 +42,5 @@ What information does the program need?
 5. 'The grade for the score {0-74} is Needs Improvement'
 
 ## Boundary Condition
-
+What condition will you use to determine whether the score is valid? 
+> ('score') < 0 or ('score') > 100
