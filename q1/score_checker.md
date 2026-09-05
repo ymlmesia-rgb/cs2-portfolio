@@ -54,6 +54,13 @@ Explain how the program decides which classification should be displayed.
 > 4. If false, it check if it is '>= 75' for **Satisfactory**.
 > 5. If none of these conditions are met, if falls back to the 'else' block for **Needs Improvement**.
 
+# Flowchart
+
+[MESIA_PA-2_Flowcahrt](<img width="1099" height="700" alt="image" src="https://github.com/user-attachments/assets/471201c6-1309-4bd5-841b-d37675760e97" />)
+
+
+
+
 
 
 
