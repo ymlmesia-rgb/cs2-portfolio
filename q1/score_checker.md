@@ -95,6 +95,26 @@ END
 
 See [score_checker.py](score_checker.py) for the executable file.
 
+# Part 5: Testing
+
+| Test | Input | Purpose | Expected Output | Actual Output | Result | 
+
+| 1 | -1 | Below minimum |Invalid score. Please enter a score between 0 and 100. |Invalid score. Please enter a score between 0 and 100. |PASS| 
+
+| 2 | 0 | Minimum boundary |The grade for the score 0 is Needs Improvement. |The grade for the score 0 is Needs Improvement. |PASS| 
+
+| 3 | 74 | Below Satisfactory boundary |The grade for the score 74 is Needs Improvement. | The grade for the score 74 is Needs Improvement.|PASS| 
+
+| 4 | 75 | Satisfactory boundary |The grade for the score 75 is Satisfactory. |The grade for the score 75 is Satisfactory. |PASS| 
+
+| 5 | 80 | Very Satisfactory boundary |The grade for the score 80 is Very Satisfactory. |The grade for the score 80 is Very Satisfactory. |PASS| 
+
+| 6 | 90 | Outstanding boundary |The grade for the score 90 is Outstanding. |The grade for the score 90 is Outstanding. |PASS| 
+
+| 7 | 100 | Maximum boundary |The grade for the score 100 is Outstanding. |The grade for the score 100 is Outstanding. |PASS| 
+
+| 8 | 101 | Above maximum |Invalid score. Please enter a score between 0 and 100. |Invalid score. Please enter a score between 0 and 100. |PASS| 
+
 
 
 
