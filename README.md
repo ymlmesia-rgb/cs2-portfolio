@@ -1,6 +1,6 @@
-# *CS2-portfolio
-# **Yuan Marcus Mesia
-# **8 - Dahlia
+# CS2-portfolio
+## Yuan Marcus Mesia
+## 8 - Dahlia
 
 Links for submissions below:
 
