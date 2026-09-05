@@ -22,3 +22,9 @@ The classifications are:
 | 0-74 | Needs Improvement | 
 
 Scores below 0 and scores above 100 are invalid.
+
+# Part 1: Analyze the Logic
+
+## Input
+What information does the program need?
+
