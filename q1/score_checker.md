@@ -115,6 +115,32 @@ See [score_checker.py](score_checker.py) for the executable file.
 
 | 8 | 101 | Above maximum |Invalid score. Please enter a score between 0 and 100. |Invalid score. Please enter a score between 0 and 100. |PASS| 
 
+## Testing Reflection
+
+1. Why is it important to test the values 0 and 100? 
+> They represent the exact minimum and maximum valid limits of the acceptable range.
+
+2. Why did you also test -1 and 101?
+> These are off-by-one values just outside the boundary limits. These test values confirm that inputs outside the allowed limits are properly flagged as invalid.
+
+3. Which test helped you understand boundary conditions the most? 
+> Tests 3 and 4. Testing 74 and 75 revealed the exact cutoff score where performance upgrades from "Needs Improvement" to "Satisfactory."
+
+4.  Did any of your tests initially fail? If yes, what did you change in your program?
+> No. No tests failed because range checking ran before grade evaluation.
+
+## Reflection
+
+1. How did selection structures make the program more useful? 
+> Selection structures let programs react to user input by running specific code instead of executing line-by-line.
+
+2. How did proper comments and readable formatting improve your program? 
+> Clear variable names, consistent indentation, and targeted comments make the code self-explanatory, helping team members understand it without reading raw logic.
+
+3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code? 
+> Planning beforehand maps out all decision branches early, catching logic imperfections before you write syntax.
+
+
 
 
 
