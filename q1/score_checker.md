@@ -29,3 +29,6 @@ Scores below 0 and scores above 100 are invalid.
 What information does the program need?
 > The program needs a single integer representing a student's numerical score.
 
+### Valid Range
+**Minimum valid score:** 0
+**Maximum valid score:** 100
