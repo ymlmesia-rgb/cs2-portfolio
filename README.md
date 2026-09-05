@@ -1,4 +1,4 @@
-# CS2-portfolio
+# CS2 - Portfolio
 ## Yuan Marcus Mesia
 ## 8 - Dahlia
 
