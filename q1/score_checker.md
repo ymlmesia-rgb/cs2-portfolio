@@ -93,7 +93,7 @@ END
 
 ## Source Code
 
-See [score_checker.py](cs2-portfolio/q1/score_checker.py) for the executable file.
+See [score_checker.py](q1/score_checker.py) for the executable file.
 
 
 
