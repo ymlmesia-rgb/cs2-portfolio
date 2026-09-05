@@ -44,3 +44,16 @@ What information does the program need?
 ## Boundary Condition
 What condition will you use to determine whether the score is valid? 
 > ('score') < 0 or ('score') > 100
+
+## Multiple Decision Paths 
+Explain how the program decides which classification should be displayed. 
+> The program uses chained 'elif' statements evaluated sequentially:
+> 1. First, it check if the score is out of bounds ('< 0' or '> 100').
+> 2. If valid, it checks if the score is '>= 90' for **Outstanding**.
+> 3. If false, it check if it is '>= 80' for **Very Satisfactory**.
+> 4. If false, it check if it is '>= 75' for **Satisfactory**.
+> 5. If none of these conditions are met, if falls back to the 'else' block for **Needs Improvement**.
+
+
+
+
