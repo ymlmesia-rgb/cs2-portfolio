@@ -89,7 +89,11 @@ START
   
 END
 
+# Part 4: Clean Code Implementatiom
 
+## Source Code
+
+See [score_checker.py](cs2-portfolio/q1/score_checker.py) for the executable file.
 
 
 
