@@ -54,11 +54,28 @@ Explain how the program decides which classification should be displayed.
 > 4. If false, it check if it is '>= 75' for **Satisfactory**.
 > 5. If none of these conditions are met, if falls back to the 'else' block for **Needs Improvement**.
 
-# Flowchart
+# Part 2: Flowchart
 
 <img width="1099" height="700" alt="image" src="https://github.com/user-attachments/assets/471201c6-1309-4bd5-841b-d37675760e97" />
 
 ***Made with LucidChart.co*** 
+
+# Part 3: Pseudocode
+START
+  INPUT score
+
+  IF score <0 or >100 THEN
+    DISPLAY "Invalid score."
+  ELSE IF score >= 90 THEN
+    DISPLAY "Outstanding"
+  ELSE IF score >= 80 THEN
+    DISPLAY "Very Satisfactory"
+  ELSE IF score >= 75 THEN
+    DISPLAY "Satisfactory"
+  ELSE 
+    DISPLAY "Needs Improvement"
+  END IF
+END
 
 
 
