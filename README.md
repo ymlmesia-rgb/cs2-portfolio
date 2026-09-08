@@ -12,4 +12,4 @@ LINKS:
 
 >[MESIA_Score_Checker.md](q1/score_checker.md), [MESIA_Score_Checker.py](q1/score_checker.py)
 
->[MESIA Input Validation.md]((q1/input_validation.md)
+>[MESIA Input Validation.md](q1/input_validation.md)
