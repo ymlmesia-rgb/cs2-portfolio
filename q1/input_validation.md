@@ -1,7 +1,3 @@
-## Quarter 1 Activities 
-- [Score Checker](q1/score_checker.md) 
-- [Input Validation and Output Verification](q1/input_validation.md) 
-
 # Input Validation and Output Verification 
 **Activity:** PSHS Workshop Registration Validator 
 **Name:** Yuan Marcus L. Mesia
