@@ -10,6 +10,6 @@ LINKS:
 
 >[MESIA_Yuan_Distance.py](q1/MESIA_Yuan_Distance.py)
 
->[MESIA_Score_Checker.md](q1/score_checker.md), [MESIA_Score_Checker.py](q1/score_checker.py)
+>[MESIA_Score_Checker.md](q1/score_checker.md), along with [MESIA_Score_Checker.py](q1/score_checker.py)
 
->[MESIA Input Validation.md](q1/input_validation.md)
+>[MESIA Input Validation.md](q1/input_validation.md), along with [MESIA_Workshop_Validator.py](q1/workshop_validator.py)
