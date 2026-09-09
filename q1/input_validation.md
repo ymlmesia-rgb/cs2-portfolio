@@ -160,16 +160,16 @@ Explain the length rule you used.
 # Part D - Testing 
 
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | |---:|---|---|---|---|---| 
-| 1 | All inputs valid | Normal case | ------------------------------
+| 1 | All inputs valid | Normal case | 
    Registration Successful!
-------------------------------
+
 Name: YUAN MARCUS L. MESIA
 Age: 13
 Grade Level: 8
 Email Address: ymlmesia@brc.pshs.edu.ph
-Registration Code: 123456 | ------------------------------
+Registration Code: 123456 | 
    Registration Successful!
-------------------------------
+
 Name: YUAN MARCUS L. MESIA
 Age: 13
 Grade Level: 8
