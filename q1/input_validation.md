@@ -40,11 +40,6 @@ The program checks whether user input satisfies specific requirements before acc
 > Write your answer here. 
 --- 
 # Part B - Program Design 
-Before writing your program, create either a **flowchart or pseudocode** showing its logic. 
-## Flowchart 
-Insert your flowchart below. 
-![Workshop Validator Flowchart](workshop_validator_flowchart.png) 
-OR 
 ## Pseudocode
 ```text 
 START 
@@ -97,7 +92,7 @@ Explain the length rule you used.
 > Write your answer here. 
 --- 
 # Part D - Testing 
-Test your program using both valid and invalid inputs. 
+
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | |---:|---|---|---|---|---| 
 | 1 | All inputs valid | Normal case | | | | 
 | 2 | Blank student name | Presence | | | | 
@@ -113,7 +108,7 @@ Write **PASS** when the actual output matches the expected output.
 Write **FAIL** when it does not. 
 --- 
 # Part E - Output Verification 
-Choose any **three tests** from Part D. 
+
 ## Verification Test 1 
 **Input:** 
 ```text 
@@ -129,7 +124,7 @@ Write the actual output here.
 ``` 
 **Result:** PASS / FAIL 
 **Explanation:** 
-> Explain why the output is correct or incorrect. --- 
+--- 
 ## Verification Test 2 
 **Input:** 
 ```text 
@@ -145,7 +140,7 @@ Write the actual output here.
 ``` 
 **Result:** PASS / FAIL 
 **Explanation:** 
-> Explain why the output is correct or incorrect. --- 
+--- 
 ## Verification Test 3 
 **Input:** 
 ```text 
@@ -161,7 +156,6 @@ Write the actual output here.
 ``` 
 **Result:** PASS / FAIL 
 **Explanation:** 
-> Explain why the output is correct or incorrect. 
 --- 
 # Reflection 
 Answer briefly. 
