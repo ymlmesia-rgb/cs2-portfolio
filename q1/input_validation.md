@@ -162,17 +162,16 @@ Explain the length rule you used.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result | 
 |---:|---|---|---|---|---| 
 | 1 | All inputs valid | Normal case | Registration Successful! | Registration Successful!| PASS | 
-| 2 | Blank student name | Presence | Student name is required. |Student name is required. | PASS | 
-| 3 | Age = `fourteen` | Data type | | | | 
-| 4 | Age = `11` | Minimum boundary | | | | 
-| 5 | Age = `18` | Maximum boundary | | | | 
-| 6 | Age = `10` | Range | | | | 
-| 7 | Grade Level = `13` | Acceptable value | | | | 
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | | 
-| 9 | Registration Code = `ABC` | Length | | | | 
-| 10 | Registration Code = `CS2026` | Valid length | | | | 
-Write **PASS** when the actual output matches the expected output. 
-Write **FAIL** when it does not. 
+| 2 | Blank student name | Presence | Registration Failed! Student name is required. | Registration Failed! Student name is required. | PASS | 
+| 3 | Age = `fourteen` | Data type | Registration Failed! Student name is required. | Registration Failed! Student name is required. | PASS | 
+| 4 | Age = `11` | Minimum boundary | Registration Successful! | Registration Successful! | PASS | 
+| 5 | Age = `18` | Maximum boundary | Registration Successful!| Registration Successful! | PASS | 
+| 6 | Age = `10` | Range | Registration Failed! Age must be between 11 and 18. | Registration Failed! Age must be between 11 and 18. | PASS | 
+| 7 | Grade Level = `13` | Acceptable value | Registration Failed! Grade level must be between 7 and 12. | Registration Failed!  Grade level must be between 7 and 12. | PASS | 
+| 8 | Email = `studentpshs.edu.ph` | Pattern | Registration Failed! Invalid email address. Please enter a valid email address. | Registration Failed! Invalid email address. Please enter a valid email address. | PASS | 
+| 9 | Registration Code = `ABC` | Length | Registration Failed! Invalid registration code. The registration code must contain exactly 6 characters. | Registration Failed! Invalid registration code. The registration code must contain exactly 6 characters.  | PASS | 
+| 10 | Registration Code = `CS2026` | Valid length | Registration Successful!  | Registration Successful! | PASS | 
+
 --- 
 # Part E - Output Verification 
 
