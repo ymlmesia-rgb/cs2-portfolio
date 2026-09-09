@@ -45,9 +45,9 @@ if email_address is None or "@" not in email_address or "." not in email_address
 #VALIDATE REGISTRATION CODE
 if len(registration_code) > 6:
     is_valid = False
-    error_message_registration_code = "Invalid registration code. The registration code must not exceed 6 characters."
+    error_message_registration_code = "Invalid registration code. The registration code must contain exactly 6 characters."
 if len(registration_code) < 6:
-    error_message_registration_code = "Invalid registration code. The registration code must not be less than 6 characters."
+    error_message_registration_code = "Invalid registration code. The registration code must contain exactly 6 characters."
 
 #VALIDATION RESULT
 if is_valid:
