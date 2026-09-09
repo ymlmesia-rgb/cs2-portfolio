@@ -21,7 +21,7 @@ The program checks whether user input satisfies specific requirements before acc
 | Age | Integer (11 to 18) | Data type & Range validation | 25 |  Must be a valid integer. |Age must be between 11 and 18.| 
 | Grade Level | Integer (7 to 12) | Acceptable value validation | 13  | Must be one of 7, 8, 9, 10, 11, 12 | Grade level must be between 7 and 12. | 
 | Email Address | String/Text | Simple pattern validation | ymlmesia@brcpshseduph | Must contain the characters "@" and ".". | Invalid email address. Please enter a valid email address.| 
-| Registration Code | | | | | | 
+| Registration Code | String/Text (6 characters) | Length validation | 12ag111 OR ABC1234 | Must be exactly 6 characters.| Invalid registration code. The registration code must contain exactly 6 characters. | 
 --- 
 ## Validation Questions 
 ### 1. Why should the student name not be blank? 
