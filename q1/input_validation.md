@@ -25,15 +25,15 @@ The program checks whether user input satisfies specific requirements before acc
 --- 
 ## Validation Questions 
 ### 1. Why should the student name not be blank? 
-> Write your answer here. 
+> A blank name check ensures the every registered person can be identified.
 ### 2. Why should age be checked for both data type and range? 
-> Write your answer here. 
+> Checking data type prevents the program from crashing when non-numeric text is entered. Checking range ensures that only students ages 11 to 18 are valid/accepted.
 ### 3. Why should grade level only accept specific values? 
-> Write your answer here. 
+> The workshop is specifically designed for high school grade levels (7-12).
 ### 4. What format requirements did you use for the email address? 
-> Write your answer here. 
+> The simpler pattern requirement ensures that the provided string contains both of these characters: "@", and ".".
 ### 5. What length requirement did you use for the registration code? 
-> Write your answer here. 
+> The registration code must be exactly 6 characters long.
 --- 
 # Part B - Program Design 
 ## Pseudocode
