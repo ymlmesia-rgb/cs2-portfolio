@@ -30,9 +30,6 @@ else:
         error_message_age = "Age must be between 11 and 18."
 
 #VALIDATE GRADE LEVEL
-if grade_level == "":
-    is_valid = False
-    error_message_grade_level = "Grade level is required."
 elif int(grade_level) < 7 or int(grade_level) > 12:
     is_valid = False
     error_message_grade_level = "Grade level must be between 7 and 12."
