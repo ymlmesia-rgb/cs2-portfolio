@@ -178,63 +178,124 @@ Explain the length rule you used.
 ## Verification Test 1 
 **Input:** 
 ```text 
-Write the input here.
+Enter your name: Yuan Marcus L. Mesia
+Enter your age: 13
+Enter your grade level: 8
+Enter your email address: ymlmesia@brc.pshs.edu.ph
+Enter your registration code: YUAN99
 ``` 
 **Expected Output:** 
-```text 
-Write the expected output here. 
+```text
+------------------------------
+   Registration Successful!
+------------------------------
+Name: Yuan Marcus L. Mesia
+Age: 13
+Grade Level: 8
+Email Address: ymlmesia@brc.pshs.edu.ph
+Registration Code: YUAN99
 ``` 
 **Actual Output:** 
-```text 
-Write the actual output here. 
+```text
+------------------------------
+   Registration Successful!
+------------------------------
+Name: Yuan Marcus L. Mesia
+Age: 13
+Grade Level: 8
+Email Address: ymlmesia@brc.pshs.edu.ph
+Registration Code: YUAN99
 ``` 
-**Result:** PASS / FAIL 
-**Explanation:** 
+**Result:** PASS 
+**Explanation:** All inputs meet the required conditions. The program sets _is_valid_ to true and displays registration information.
 --- 
 ## Verification Test 2 
 **Input:** 
-```text 
-Write the input here. 
+```text
+
+Enter your name: Yuan Marcus L. Mesia
+Enter your age: fourteen
+Enter your grade level: 8
+Enter your email address: ymlmesia@brc.pshs.edu.ph
+Enter your registration code: YUAN99
 ``` 
 **Expected Output:** 
 ```text 
-Write the expected output here. 
+------------------------------
+   Registration Failed!
+------------------------------
+The following errors were found:
+- 
+- Age must be a number.
+- 
+- 
+- 
 ``` 
 **Actual Output:** 
 ```text 
-Write the actual output here. 
+------------------------------
+   Registration Failed!
+------------------------------
+The following errors were found:
+- 
+- Age must be a number.
+- 
+- 
+- 
 ``` 
-**Result:** PASS / FAIL 
-**Explanation:** 
+**Result:** PASS 
+**Explanation:** The input for age is non-numeric.
 --- 
 ## Verification Test 3 
 **Input:** 
 ```text 
-Write the input here. 
+Enter your name: Yuan Marcus L. Mesia
+Enter your age: 13
+Enter your grade level: 8
+Enter your email address: studentpshs.edu.ph
+Enter your registration code: YUAN99
 ``` 
 **Expected Output:** 
 ```text 
-Write the expected output here. 
+------------------------------
+   Registration Failed!
+------------------------------
+The following errors were found:
+- 
+- 
+- 
+- Invalid email address. Please enter a valid email address.
+- 
 ``` 
 **Actual Output:**
 ```text 
-Write the actual output here. 
+------------------------------
+   Registration Failed!
+------------------------------
+The following errors were found:
+- 
+- 
+- 
+- Invalid email address. Please enter a valid email address.
+- 
 ``` 
-**Result:** PASS / FAIL 
-**Explanation:** 
+**Result:** PASS
+**Explanation:** The email input is missing the required "@" symbol. The pattern check marks the regisration as invalid and displays the error message.
 --- 
 # Reflection 
 Answer briefly. 
-### 1. Why should a program validate input before processing it? > Write your answer here. 
-### 2. What is the difference between input validation and output verification? > Write your answer here. 
-### 3. Which validation technique was easiest for you to implement? Why? > Write your answer here. 
-### 4. Which validation technique was most challenging? Why? > Write your answer here. 
-### 5. How did testing invalid inputs help you improve your program? > Write your answer here. 
+### 1. Why should a program validate input before processing it? 
+> The input validation prevents the program from crashing and keeps invalid data from entering the system.
+### 2. What is the difference between input validation and output verification? 
+> Input validation - checks the correctness of the entered data before processing it.
+  Output verification - checks if program's final result aligns what was expected.
+### 3. Which validation technique was easiest for you to implement? Why? 
+> Presence validation because it only requires checking if a string is empty. 
+### 4. Which validation technique was most challenging? Why? 
+> Data type validation combined with range validation because I had to verify age_input.isdigit() before converting it into an integer so crashing of program won't happen. 
+### 5. How did testing invalid inputs help you improve your program? 
+> It showed me how programs handle realistic user mistakes. This helped me make sure the code will not crash when someone makes an error.
 --- 
-# Files for This Activity 
-- [`workshop_validator.py`](workshop_validator.py) 
-- `input_validation.md` 
-- `workshop_validator_flowchart.png` if a flowchart was used --- 
 [← Back to Main Portfolio](../README.md) 
 
 
