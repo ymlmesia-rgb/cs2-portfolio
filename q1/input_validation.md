@@ -18,7 +18,7 @@ The program checks whether user input satisfies specific requirements before acc
 - registration code.
 --- 
 # Part A - Validation Requirements 
-Complete the table below before writing your program. 
+
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message | 
 |---|---|---|---|---|---| 
 | Student Name | | | | | | 
@@ -48,7 +48,18 @@ OR
 ## Pseudocode
 ```text 
 START 
-Write your pseudocode here. 
+ Input name
+  if name is blank, print "student name is required" and end the program
+ Input age
+  if age is less than 11 or more than 18, print "You are not eligible to register for the workshop." then end the program.
+ Input grade level
+  if grade level is less than 7 or more than 12, print "You are not eligible to register for the workshop. Grade level must be between 7 and 12." then end the program.
+ Input email
+  if email does not contain "@" or ".", print "Invalid email address. Please enter a valid email address." then end the program.
+ Input registration code
+  if registration code does not contain or exceeds 6 characters, print "Invalid registration code. The registration code must contain 6 characters." then end the program.
+ Print "Registration Successful!"
+  print name, age, grade level. email, and registration code.
 END 
 
 Your design should show: 
