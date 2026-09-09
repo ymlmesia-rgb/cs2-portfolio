@@ -17,7 +17,7 @@ The program checks whether user input satisfies specific requirements before acc
 
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message | 
 |---|---|---|---|---|---| 
-| Student Name | | | | | | 
+| Student Name | String/Text | Presence Validator | (blank) | Must not be blank. | Must be a valid integer between 11 and 18| 
 | Age | | | | | | 
 | Grade Level | | | | | | 
 | Email Address | | | | | | 
