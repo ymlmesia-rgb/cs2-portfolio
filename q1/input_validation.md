@@ -67,7 +67,77 @@ Your design should show:
 [`workshop_validator.py`](workshop_validator.py) 
 ## Final Code 
 ```python 
-# Paste your final code here. 
+# Paste your final code here.
+#PSHS Workshop Registration Validator IMPROVED
+
+#COLLECT INPUTS
+name = input("Enter your name: ")
+age_input = (input("Enter your age: "))
+grade_level = input("Enter your grade level: ")
+email_address = input("Enter your email address: ")
+registration_code = input("Enter your registration code: ")
+
+is_valid = True
+error_message_name = ""
+error_message_age = ""
+error_message_grade_level = ""
+error_message_email = ""
+error_message_registration_code = ""
+
+#VALIDATE NAME
+if name == "":
+    is_valid = False
+    error_message_name = "Student name is required."
+
+#VALIDATE AGE
+if not age_input.isdigit():
+    is_valid = False
+    error_message_age = "Age must be a number."
+else:
+    age = int(age_input)
+    if age < 11 or age > 18:
+        is_valid = False
+        error_message_age = "Age must be between 11 and 18."
+
+#VALIDATE GRADE LEVEL
+if grade_level == "":
+    is_valid = False
+    error_message_grade_level = "Grade level is required."
+elif int(grade_level) < 7 or int(grade_level) > 12:
+    is_valid = False
+    error_message_grade_level = "Grade level must be between 7 and 12."
+
+#VALIDATE EMAIL ADDRESS
+if email_address is None or "@" not in email_address or "." not in email_address:
+    is_valid = False
+    error_message_email = "Invalid email address. Please enter a valid email address."
+
+#VALIDATE REGISTRATION CODE
+if len(registration_code) != 6:
+    is_valid = False
+    error_message_registration_code = "Invalid registration code. The registration code must contain exactly 6 characters."
+
+#VALIDATION RESULT
+if is_valid:
+    print("-" * 30)
+    print("   Registration Successful!")
+    print("-" * 30)
+    print(f"Name: {name}")
+    print(f"Age: {age}")
+    print(f"Grade Level: {grade_level}")
+    print(f"Email Address: {email_address}")
+    print(f"Registration Code: {registration_code}")
+else:
+    print("-" * 30)
+    print("   Registration Failed!")
+    print("-" * 30)
+    print("The following errors were found:")
+    print(f"- {error_message_name}")
+    print(f"- {error_message_age}")
+    print(f"- {error_message_grade_level}")
+    print(f"- {error_message_email}")
+    print(f"- {error_message_registration_code}")
+
 ``` 
 --- 
 ## Validation Techniques Used 
