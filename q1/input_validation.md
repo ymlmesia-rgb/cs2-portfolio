@@ -100,9 +100,6 @@ else:
         error_message_age = "Age must be between 11 and 18."
 
 #VALIDATE GRADE LEVEL
-if grade_level == "":
-    is_valid = False
-    error_message_grade_level = "Grade level is required."
 elif int(grade_level) < 7 or int(grade_level) > 12:
     is_valid = False
     error_message_grade_level = "Grade level must be between 7 and 12."
@@ -142,20 +139,23 @@ else:
 --- 
 ## Validation Techniques Used 
 ### Presence Validation 
-Explain where you used presence validation. > Write your answer here. 
+Explain where you used presence validation. 
+> I used presence validation on 'name' to ensure ii wasn't left blank.
 ### Data Type Validation 
-Explain where you used data type validation. > Write your answer here. 
+Explain where you used data type validation. 
+> I used data type validation on 'age' to check if the entered string consists of only numeric digits.
 ### Range Validation 
-Explain where you used range validation. > Write your answer here.
+Explain where you used range validation. 
+> I used range validation on 'age' to verify that the student's age fell within the specified range of 11 and 18.
 ### Acceptable Value Validation 
 Explain where you used acceptable value validation. 
-> Write your answer here. 
+> I used acceptable value validation on 'grade level' to ensure that the program only accepts the valid high school grade levels between 7 and 12.
 ### Pattern Validation 
 Explain the simple pattern rule you used. 
-> Write your answer here. 
+> I used simple patter check on 'email address' to verify if "@" and "." is in the input, ensuring the entered email contains the needed formatting characters.
 ### Length Validation 
 Explain the length rule you used. 
-> Write your answer here. 
+> I used length validation on 'registration code' to guarantee the code has exactly 6 characters.
 --- 
 # Part D - Testing 
 
