@@ -98,7 +98,7 @@ See [score_checker.py](score_checker.py) for the executable file.
 # Part 5: Testing
 
 | Test | Input | Purpose | Expected Output | Actual Output | Result | 
-
+|---|---|---|---|---|---| 
 | 1 | -1 | Below minimum |Invalid score. Please enter a score between 0 and 100. |Invalid score. Please enter a score between 0 and 100. |PASS| 
 
 | 2 | 0 | Minimum boundary |The grade for the score 0 is Needs Improvement. |The grade for the score 0 is Needs Improvement. |PASS| 
