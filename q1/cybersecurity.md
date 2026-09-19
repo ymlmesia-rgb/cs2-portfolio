@@ -155,38 +155,41 @@ print(f"Attendance Status: {attendance}").
 --- 
 ## Security Practices Applied 
 ### Required Input 
-> Explain how you handled blank input. 
+> Check if strings are empty/blank by using (if name == "":).
 ### Allowed Values 
-> Explain which fields accept only predefined values. 
+> Used lists for Section, Club Choice, and Attendance Status.
 ### Format Check 
-> Explain your simple email validation rule. 
+> Verifies if the email address entered contained the required characters "@" and ".". 
 ### Error Messages 
-> Explain why clear error messages are useful. 
+> Provides specific feedback to tell users what went wrong.
 ### Data Minimization 
-> Explain what information you intentionally did NOT collect and why. 
+> Excludes collection of inputs for passwords, OTPs, home addresses, and bank accounts to prevent collecting personal data that is not needed.
 --- 
 # Part E - Testing and Reflection 
 ## Testing 
 | Test | Input Situation | Expected Output | Actual Output | Result | 
 |---:|---|---|---|---| 
-| 1 | All data valid | | | | 
-| 2 | Blank student name | | | | 
-| 3 | Invalid section | | | |
-| 4 | Invalid club choice | | | | 
-| 5 | Email missing `@` | | | | 
-| 6 | Email missing `.` | | | | 
-| 7 | Invalid attendance status | | | | 
-| 8 | Different valid inputs | | | | 
-Use: 
-- **PASS** if the actual result matches the expected result. 
-- **FAIL** if it does not. 
+| 1 | All data valid | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS | 
+| 2 | Blank student name | Name cannot be empty. Please enter your name. | Name cannot be empty. Please enter your name. | PASS | 
+| 3 | Invalid section | Invalid Section. Please try again. | Invalid Section. Please try again. | PASS |
+| 4 | Invalid club choice | Invalid club choice. Please enter a valid club name. | Invalid club choice. Please enter a valid club name. | PASS | 
+| 5 | Email missing `@` | Invalid school email address. Please try again. | Invalid school email address. Please try again. | PASS | 
+| 6 | Email missing `.` |Invalid school email address. Please try again. | Invalid school email address. Please try again. | PASS | 
+| 7 | Invalid attendance status | Invalid attendance status. Please enter 'Present', 'Absent', or 'Late'. | Invalid attendance status. Please enter 'Present', 'Absent', or 'Late'. | PASS | 
+| 8 | Different valid inputs | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS | 
+
 --- 
 # Reflection 
-### 1. What is one cybersecurity threat that can affect an application or user? > Write your answer here. 
-### 2. How can users reduce the risk of phishing or suspicious messages? > Write your answer here. 
-### 3. How can validation rules improve the security of user input? > Write your answer here. 
-### 4. Why should a program avoid collecting unnecessary personal information? > Write your answer here. 
-### 5. How did SG7's input validation concepts become security practices in SG8? > Write your answer here. 
+### 1. What is one cybersecurity threat that can affect an application or user?
+> Phishing attacks. Malicious people impersonate real authorities to steal sensitive credentials. 
+### 2. How can users reduce the risk of phishing or suspicious messages? 
+> Checking sender addresses, avoiding links in urgent messages, turning on multi-factor authentication. 
+### 3. How can validation rules improve the security of user input? 
+> They enforce limitations/rules on entered data and ensuring safe, expected, and correct inputs.
+### 4. Why should a program avoid collecting unnecessary personal information? 
+> In order to minimize data, reducing impacts in a security breach.
+### 5. How did SG7's input validation concepts become security practices in SG8? 
+> SG7 focused on preventing errors through basic input checks. SG8 builds upon those checks into deliberate security checks.
 --- 
 # Files for This Activity 
 - [`secure_registration.py`](secure_registration.py) 
