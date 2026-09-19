@@ -34,7 +34,6 @@ Check or describe all that apply:
 > Report the sus message to a teacher. (sir Roffe)
 --- 
 # Part B - Data Privacy and Secure Data Capture 
-A proposed Club Registration System wants to collect the following information. Determine whether each item is really necessary. 
 | Data | Collect / Do Not Collect | Reason | 
 |---|---|---| 
 | Student Name | Collect | Needed to identify the registrant. | 
@@ -48,10 +47,10 @@ A proposed Club Registration System wants to collect the following information. 
 | Parent Bank Account | Do not collect | Unrelated to club sign-ups. | 
 --- 
 ## Privacy Question 
-Why is it safer to collect only information that the program actually needs? > It is safer because it limits potential danger/damage. If a system goes through a data breach, uncollected data cannot be stolen, leaked, or misused.
+Why is it safer to collect only information that the program actually needs? 
+> It is safer because it limits potential danger/damage. If a system goes through a data breach, uncollected data cannot be stolen, leaked, or misused.
 --- 
 # Part C - Security-Focused Validation Rules 
-Complete the table before writing your program. 
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error Message | 
 |---|---|---|---|---|---| 
 | Student Name | String that is not empty. | Missing identity. |""| Name must not be blank. | Name cannot be empty. Please enter your name. | 
