@@ -12,4 +12,6 @@ LINKS:
 
 >[MESIA_Score_Checker.md](q1/score_checker.md), along with [MESIA_Score_Checker.py](q1/score_checker.py)
 
->[MESIA Input Validation.md](q1/input_validation.md), along with [MESIA_Workshop_Validator.py](q1/workshop_validator.py)
+>[MESIA_Input Validation.md](q1/input_validation.md), along with [MESIA_Workshop_Validator.py](q1/workshop_validator.py)
+
+>[MESIA_Cyber Security.md](q1/cybersecurity.md), along with [MESIA_secure_registration.py](q1/secure_registration.py)
