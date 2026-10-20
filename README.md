@@ -6,7 +6,7 @@ Links for submissions below:
 
 LINKS:
 
-###QUARTER 1
+### QUARTER 1
 
 >[hello.py](q1/hello.py)
 
@@ -18,6 +18,6 @@ LINKS:
 
 >[MESIA_Cyber Security.md](q1/cybersecurity.md), along with [MESIA_secure_registration.py](q1/secure_registration.py)
 
-###QUARTER 2
+### QUARTER 2
 
->[MESIA_Canteen_Calculator.md](
+>[MESIA_Canteen_Calculator.md](q2/canteen_calculator.md), along with [MESIA_Canteen_Calculator.md](q2/canteen_calculator.py)
