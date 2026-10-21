@@ -20,4 +20,4 @@ LINKS:
 
 ### QUARTER 2
 
->[MESIA_Canteen_Calculator.md](q2/canteen_calculator.md), along with [MESIA_Canteen_Calculator.md](q2/canteen_calculator.py)
+>[MESIA_Canteen_Calculator.md](q2/canteen_calculator.md), along with [MESIA_Canteen_Calculator.py](q2/canteen_calculator.py)
