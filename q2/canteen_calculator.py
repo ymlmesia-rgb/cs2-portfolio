@@ -15,6 +15,6 @@ total_cost = calculate_total(price, quantity)
 print("Total cost: ", total_cost)
 print("Change: ", calculate_change(payment, total_cost))
 
- if calculate_change(payment, total_cost) < 0:
-         print("Insufficient payment. Please provide enough funds.")
+if calculate_change(payment, total_cost) < 0:
+    print("Insufficient payment. Please provide enough funds.")
 
