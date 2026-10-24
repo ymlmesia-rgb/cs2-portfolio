@@ -2,17 +2,9 @@
 
 ### 1. Which function returns a number, which returns a string, and which returns a boolean?
 > The function ***calculate_average(score1, score2, score3)*** returns a number, the function ***get_performance(average)*** returns a string, and the function ***is_eligible(average, completed_stasks)*** returns a boolean.
-### 2. What is the difference between the parameters price and quantity and the actual arguments passed
-to the function?
-> Parameters are the placeholder variable defined in the function header.
-> Arguments are the actual value or variable passed into the function when you call it.
-
-### 3. Where is the returned total stored, and how is it reused?
-> The returned total is stored in the *total_cost* variable.
-> It is reused in three places:
-> 1. When printing the total cost (print("Total cost: ", total_cost)).
-> 2. As an argument passed into calculate_change(payment, total_cost) inside the print statement.
-> 3. As an argument passed into calculate_change(payment, total_cost) inside the if condition to check for insufficient funds.
-
-### 4. Why is it useful to separate total calculation from change calculation?
-> Separating the two calculations makes the program much easier to maintain and update.
+### 2. Explain how the average moves from ***calculate_average*** into ***get_performance***.
+When the user enters their three scores those three scores are sent as arguments into the function ***calculate_average(score1, score2, score3)***. This function does the math. Gives the result back using the return statement. In the part of the program the value that comes back is saved into a variable named average_score. Then this average_score is sent as an argument into the function ***get_performance(average)***. This function looks at the number and finds out which performance category it belongs to.
+### 3. What happens when a student has a high average but has completed fewer than 3 tasks?
+The ***is_eligible(average, completed_tasks)*** function will evaluate the condition as false because both conditions must be met. They (the student) will not be eligible.
+### 4. Why is return more appropriate than simply printing the result inside each function?
+Using return makes your functions reusable. You would also be allowed to pass data in a variable into other functions (like explained in item 2).
