@@ -1,8 +1,7 @@
 # Documentation Questions
 
-### 1. What does each function do?
-> The function *calculate_total(price, quantity)* Takes the price and quantity parameters, multiplies them together, and returns the total cost of the purchase. The second function *calculate_change(payment, total)* takes the payment and total parameters, subtracts the total from the payment, and returns the resulting change.
-
+### 1. Which function returns a number, which returns a string, and which returns a boolean?
+> The function ***calculate_average(score1, score2, score3)*** returns a number, the function ***get_performance(average)*** returns a string, and the function ***is_eligible(average, completed_stasks)*** returns a boolean.
 ### 2. What is the difference between the parameters price and quantity and the actual arguments passed
 to the function?
 > Parameters are the placeholder variable defined in the function header.
