@@ -1,5 +1,9 @@
 price_per_page = 3
 pages = int(input("Enter the number of pages: "))
+if pages == 0:
+  print("Please enter your desired number of pages to print.")
+  exit()
+  
 payment = float(input("Enter the payment amount: "))
 
 def calculate_printing_cost(pages, price_per_page):
@@ -17,4 +21,4 @@ if calculate_balance(payment, total_cost) >= 0:
   print("Change: ", calculate_balance(payment, total_cost))
 else:
   print("Insufficient payment. Please provide enough funds. The payment shortage is: ",payment_shortage)
-  
+  0
