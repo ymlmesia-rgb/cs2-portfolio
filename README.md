@@ -25,3 +25,5 @@ LINKS:
 >[MESIA_Student_Performance_Evaluator.md](q2/student_performance_evaluator.md), along with [MESIA_Student_Performance_Evaluator.py](q2/student_performance_evaluator.py)
 
 >[MESIA Seatwork November 4, 2026](q2/Seatwork_11-04-26.py)
+
+>[MESIA_Programming_Exercise_November 13, 2026](q2/Programming_Exercises_11-13-26.py)
