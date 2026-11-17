@@ -11,7 +11,9 @@
 #20 is not included
 for n in range(2, 20, 2):
     print(n)
-
+#20 is included
+for n in range(2, 21, 2):
+    print(n)
 #okay so n is the name of the variable that is being used to iterate through the range of numbers. the range function starts at 2 and goes up to 20, with a step of 2. which means that it will only include even numbers in the range. the for loop will print each even number in the range. then n will be printed
 
 #Exercise 2: The Countdown Timer
