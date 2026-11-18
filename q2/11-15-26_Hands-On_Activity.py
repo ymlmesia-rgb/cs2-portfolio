@@ -22,8 +22,8 @@ print("The word is correct!")
 
 #Programming-activity 3
 for a in range(3, 31, 3):
-  print(a,"",end="")
-
+  print(a,end=" ")
+  
 #Programming-activity 4
 message = input("Enter a motivational message: ")
 no_of_times = int(input("Enter how many times it should be displayed: "))
