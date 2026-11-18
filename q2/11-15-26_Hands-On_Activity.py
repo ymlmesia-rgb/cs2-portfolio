@@ -14,10 +14,10 @@ else:
   print("Correct! It took you", attempts,"attempts!" )
   
 #Programming-activity 2
-word = input("Enter the word: ")
+word = input("Enter the word 'YES': ")
 while word != "YES":
   print("Word is incorrect. Please try again.")
-  word = input("Enter the word: ")
+  word = input("Enter the word 'YES': ")
 print("The word is correct!")
 
 #Programming-activity 3
