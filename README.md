@@ -27,3 +27,5 @@ LINKS:
 >[MESIA Seatwork November 4, 2026](q2/Seatwork_11-04-26.py)
 
 >[MESIA_Programming_Exercise_November 13, 2026](q2/Programming_Exercises_11-13-26.py)
+
+>[MESIA & SAN JOSE Hands-on Activity November 16, 2026](q2/11-15-26_Hands-On_Activity.py)
