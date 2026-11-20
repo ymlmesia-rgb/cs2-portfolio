@@ -31,3 +31,5 @@ LINKS:
 >[MESIA & SAN JOSE Hands-on Activity November 16, 2026](q2/11-15-26_Hands-On_Activity.py)
 
 https://github.com/ymlmesia-rgb/cs2-portfolio/blob/main/q2/Programming_Exercises-2_My-School-Bag_Exercise%231_11-20-26.py
+
+https://github.com/ymlmesia-rgb/cs2-portfolio/blob/main/q2/Programming_Exercises-2_Travel-Destination-Manager_Exercise%232_11-20-26.py
