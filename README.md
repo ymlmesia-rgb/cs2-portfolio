@@ -30,4 +30,4 @@ LINKS:
 
 >[MESIA & SAN JOSE Hands-on Activity November 16, 2026](q2/11-15-26_Hands-On_Activity.py)
 
->[MESIA](q2/Programming_Exercises-2_My-School-Bag_Exercise#1_11-20-26.py), along with [MESIA](q2/Programming_Exercises-2_Travel-Destination-Manager_Exercise#2_11-20-26.py)
+>[MESIA1](q2/Programming_Exercises-2_My-School-Bag_Exercise#1_11-20-26.py), along with [MESIA](q2/Programming_Exercises-2_Travel-Destination-Manager_Exercise#2_11-20-26.py)
